@@ -275,6 +275,16 @@ h2 {
     color: rgb(85, 85, 85);
     margin: 0px 0px 0px 6px;
 }
+.listado {
+    width: 800px;
+    margin: 5px auto;
+}
 .listados {
-    list-style: upper roman;
+    list-style:i;
+}
+ol {
+   column-count: 4;
+}
+li:nth-child(even) {
+    color: rgb(71, 71, 71);
 }

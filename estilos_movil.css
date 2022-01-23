@@ -278,3 +278,24 @@ h2 {
     color: rgb(85, 85, 85);
     margin: 0px 0px 0px 6px;
 }
+/* estilos de HASHTAGS */
+.ico-red {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+#ico-red {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    margin: 0px 0px 0px 6px;
+}
+.listado {
+    width: 90%;
+    margin: 5px auto;
+}
+.listados {
+    list-style:i;
+}
+ol {
+   column-count: 2;
+}
