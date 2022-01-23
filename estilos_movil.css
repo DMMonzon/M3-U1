@@ -119,9 +119,8 @@ svg {
     padding: 0px;
     transition: all 0.5s ease;
 }
-.card:hover {
-    background: rgb(2,163,196);
-    background: linear-gradient(138deg, rgba(2,163,196,0.19929970279127274) 0%, rgba(255,255,255,0.3) 20%, rgba(255,255,255,1) 50%, rgba(255,255,255,0.3) 80%, rgba(121,121,121,0.2) 100%); 
+.card:hover img {
+    transform: scale(1.1);
 }
 .arrobas {
     color: rgb(50, 88, 170);
@@ -231,7 +230,7 @@ h6 {
 .nosotros {
     display:flex;
     flex-wrap: wrap;
-
+    justify-content: center;
 }
 .items {
     display:flex;
@@ -267,4 +266,15 @@ h2 {
     border-bottom: tomato solid 1px;
     padding: 10px;
     margin: 0px 0px 5px 0px;
+}
+/* estilos de HASHTAGS */
+.ico-red {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+#ico-red {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    margin: 0px 0px 0px 6px;
 }
