@@ -235,7 +235,7 @@ h6 {
 .items {
     display:flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
 }
 .cadaitem {
     display:flex;
@@ -249,6 +249,7 @@ h6 {
     justify-content: center;
     align-items: flex-start;
     transition: all 0.5s ease;
+    color: rgb(0, 0, 0);
 }
 #items:hover {
     transform: rotate(-25deg);
@@ -298,4 +299,71 @@ h2 {
 }
 ol {
    column-count: 2;
+}
+/* estilos de GALERIA */
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px 20px;
+}
+.foto img {
+    height: auto;
+    width: 200px;
+    filter: grayscale(100%);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    margin: 0px 20px 20px 0px;
+}
+.foto img:hover {
+    scale: 1.1;
+    box-shadow: black;
+    filter: grayscale(0%);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+/* estilos de CONTACTO */
+.contacto {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto 50px auto;
+    width: 90%;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: auto;
+    padding-bottom: 20px;
+    border-bottom: solid rgb(221, 221, 221) 2px;
+}
+textarea, input {
+    margin: 8px 0px;
+    border-radius: 5px;
+    font-weight: lighter;
+    color: rgb(43, 43, 43);
+    font-size: 14px;
+    font-family: FontAwesome, 'Dosis', sans-serif;
+    resize: none;
+}
+textarea:focus, input:focus {
+    border-color: tomato;
+    outline: none;
+}
+#boton-enviar {
+    background-color: #a2d9ff;
+    font-weight: bold;
+    font-size: 18px;
+}
+#boton-enviar:hover {
+    background-color: tomato;
+    color: white;
+}
+#mail {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
 }

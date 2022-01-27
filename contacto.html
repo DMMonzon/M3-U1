@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWZ - Principal</title>
+    <link rel="stylesheet" media="(max-width: 800px)" href="estilos_movil.css">
+    <link rel="stylesheet" media="(min-width: 801px)" href="estilos_pantallas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h3>NEWZ</h3>
+        </div>
+        <nav class="nav-items">
+            <h5><a href="principal.html"><i class="fas fa-home"></i>Principal</a></h5>
+            <h5><a href="fuentes.html"><i class="fas fa-at"></i>Fuentes</a></h5>
+            <h5><a href="hashtags.html"><i class="fas fa-hashtag"></i>Hashtags</a></h5>
+            <h5><a href="galeria.html"><i class="fas fa-image"></i></i>Galería</a></h5>
+            <h5><a href="novedades.html"><i class="fas fa-exclamation-circle"></i>Novedades</a></h5>
+            <h5><a href="#" class="seleccionado"><i class="fas fa-paper-plane"></i>Contacto</a></h5>
+            <h5><a href="nosotros.html"><i class="fas fa-users"></i>Nosotros</a></h5>
+        </nav>
+        <nav class="nav-movil">
+            <a href="principal.html"><i class="fas fa-home"></i></a>
+            <a href="fuentes.html"><i class="fas fa-at"></i></a>
+            <a href="hashtags.html"><i class="fas fa-hashtag"></i></a>
+            <a href="galeria.html"><i class="fas fa-image"></i></i></a>
+            <a href="novedades.html"><i class="fas fa-exclamation-circle"></i></a>
+            <a href="#"><i class="fas fa-paper-plane"></i></a>
+            <a href="nosotros.html"><i class="fas fa-users"></i></a>
+        </nav>
+    </header>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#a2d9ff" fill-opacity="1"
+            d="M0,0L48,37.3C96,75,192,149,288,186.7C384,224,480,224,576,218.7C672,213,768,203,864,176C960,149,1056,107,1152,80C1248,53,1344,43,1392,37.3L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+
+    <div class="presentacion">
+        <img src="img/Sending.png" alt="formas de contacto" id="news">
+        <div class="texto">
+            <div class="titulo">Contactate con el equipo de trabajo de NEWZ</div>
+            <div class="leyenda">Ponemos a tu disposición diferentes formas de comunicarte con nosotros. Vamos a hablar!
+            </div>
+        </div>
+    </div>
+
+    <div class="contacto">
+        <form action="" method="" class="formulario">
+            <h2>Formulario directo:</h2>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="E-Mail" required>
+            <input type="text" placeholder="Teléfono">
+            <textarea id="comentario" placeholder="Comentario" required></textarea>
+            <input type="submit" id="boton-enviar" value="Enviar">
+        </form>
+        <div class="items">
+            <h2>Otros medios de contacto:</h2>
+            <div class="cadaitem">
+                <i class="far fa-envelope" id="items"></i>
+                <div class="leyenda">Envianos un mail a nuestro correo <a href="mailto:newz@gmail.com" id="mail">newz@gmail.com</a>.</div>
+            </div>
+            <div class="cadaitem">
+                <i class="fas fa-phone-alt" id="items"></i>
+                <div class="leyenda">Llamanos por teléfono al número 03442 468970.</div>
+            </div>
+            <div class="cadaitem">
+                <i class="fab fa-whatsapp" id="items"></i>
+                <div class="leyenda">O mensajeanos por WhatsApp al celular 3442 15824919.</div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <h6 style="color: white">Tarea de la Unidad 3 - Maquetación de sitio - Martín Monzón - 2022</h6>
+    </footer>
+
+</body>
+
+</html>
